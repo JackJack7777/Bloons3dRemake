@@ -33,7 +33,6 @@ public class WaveManager : MonoBehaviour
         Physics.IgnoreLayerCollision(10, 13);
         Physics.IgnoreLayerCollision(10, 15);
         FindObjectOfType<UImanager>().CreateHotkeyUI("R", "Start Wave");
-
     }
     private void Update()
     {
